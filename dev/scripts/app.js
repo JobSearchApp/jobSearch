@@ -179,7 +179,7 @@ class Home extends React.Component {
               <h1>Hacked<span>In</span></h1>
 
               <input onKeyDown= {(e)=>{if(e.keyCode === 13) this.searchForJobs()}} onChange = {this.setLocationToSearch} id = "location-input" type="text" name="" id=""/>
-              <button  onClick = {this.searchForJobs}>Search!</button>
+              <button  onClick = {this.searchForJobs}>Search</button>
 
             </div>
 

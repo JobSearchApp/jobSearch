@@ -42,7 +42,7 @@ class ApplicationDetails extends React.Component {
      */
     renderEditMode(){
         return (
-            <div>
+            <div className = "application-edit">
                     <div className="account-form-input">
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" onChange={this.props.setApplicationDetails} value={this.props.application.name}/>
@@ -114,7 +114,7 @@ class ApplicationDetails extends React.Component {
  */
 export const ApplicationPreview = (props) =>{
     return (
-        <div>
+        <div className = "application-preview">
             <h3>{props.application.name}</h3>
             <h4>About Me</h4>
             <p>{props.application.summary}</p>

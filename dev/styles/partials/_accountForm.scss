@@ -1,21 +1,29 @@
 .account-form-input{
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    //padding: 10px;
+
     label {
     display: inline-block;
-    margin-right: 50px;
+    //margin-right: 50px;
     font-weight: 700;
+    
+    
     }
+
     input {
-        width: 100%;
+        width: 97%;
         padding: 10px;
+        font-size: 25px;
     }
+
     textarea {
-        width: 100%;
+        width: 97%;
         height: 100px;
         transition: height 0.4s linear; 
         padding: 10px;
+        font-size: 25px;
     }
+
     textarea:focus {
         height: 200px;
     } 
@@ -23,5 +31,19 @@
 .account-form-submit {
     border-radius: 5px;
     padding: 5px;
-    margin-left: 30px;
+    margin-top : 30px;
+}
+
+.application-edit{
+    background-color : white;
+    box-shadow : 0px 1px 3px grey;
+    padding : 50px;
+    // width : 100%;
+    margin : 0 auto;
+    margin-top : 99px;
+    label{
+        color: #7685A1;
+        font-size: 30px;
+        margin-top: 25px;
+    }
 }
