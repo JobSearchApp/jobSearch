@@ -177,10 +177,8 @@ class Home extends React.Component {
           <div>
             <div className="search-for-jobs">
               <h1>Hacked<span>In</span></h1>
-
-              <input onKeyDown= {(e)=>{if(e.keyCode === 13) this.searchForJobs()}} onChange = {this.setLocationToSearch} id = "location-input" type="text" name="" id="" placeholder="Enter Location"/>
-              <button  onClick = {this.searchForJobs}>Search!</button>
-
+              <input onKeyDown= {(e)=>{if(e.keyCode === 13) this.searchForJobs()}} onChange = {this.setLocationToSearch} id = "location-input" type="text" name="" id=""/>
+              <button  onClick = {this.searchForJobs}>Search</button>
             </div>
 
             <div className="wrapper">
